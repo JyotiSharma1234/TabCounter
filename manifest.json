@@ -1,0 +1,15 @@
+{
+  "name": "Ultimate Tab Counter",
+  "version": "1.0.0",
+  "description": "Tab Counter, counts the number of opened",
+  "manifest_version": 3,
+  "author": "JR Sharma",
+  "action":{
+      "default_title": "Ultimate Tab Counter",
+      "default_popup": "index.html",
+      "permissions": ["storage"]
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+}
