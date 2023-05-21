@@ -1,8 +1,31 @@
 <!Doctype html>
 <html>
-    <head>Ultimate Tab Counter</head>
+    <head>
+        <title>Ultimate Tab Counter</title>
+        <link href="index.css" rel="stylesheet">
+
+    </head>
     <body>
-        <script src="script.js"></script>
-        <h1>Hello, World!</h1>
+        <div class="wrapper">
+            <div class="chip">
+                <div id="tabCount" class="chip-icon">0</div>
+                Opened Tabs
+            </div>
+            <div class="chip">
+                <div id="windowCount" class="chip-icon">0</div>
+                Open Window Count
+            </div>
+            <div class="chip private">
+                <div id="privateWindowCount" class="chip-icon">0</div>
+                Private Window Count
+            </div>
+            <script src="script.js"></script>
+        </div>
+        <div>
+            * Enable <b>Allow in Incognito</b> for the extension to view Private Window Info
+        </div>
+        <div>
+            Created with &hearts; by FireIceTech( &#169; 2023)
+        </div>
     </body>
 </html>
