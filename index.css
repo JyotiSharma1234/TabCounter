@@ -1,5 +1,5 @@
 .wrapper {
-  width: 350px;
+  width: 250px;
   border: 4px solid #009587;
   border-radius: 25px;
   display: flex;
@@ -38,4 +38,16 @@
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: underline;
 }
